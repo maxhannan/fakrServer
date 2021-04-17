@@ -1,0 +1,26 @@
+{
+  "name": "fakeTwitterMERN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3"
+  }
+}
